@@ -32,31 +32,3 @@
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/footer/__link/footer__link.css);
-
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 900;
-    font-display: swap;
-    src: url(../fonts/inter-bold-webfont.woff2) format("woff2"),
-         url(../fonts/inter-bold-webfont.woff) format("woff");
-  } 
-@font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url(../fonts/inter-regular-webfont.woff2) format("woff2"),
-         url(../fonts/inter-regular-webfont.woff) format("woff");
-  }
-  
-  @font-face {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-display: swap;
-    src: url(../fonts/inter-black-webfont.woff2) format("woff2"),
-         url(../fonts/inter-black-webfont.woff) format("woff");
-  }
-  
- 
