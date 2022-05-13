@@ -7,11 +7,10 @@
     font-size: 10px;
     line-height: 14px;
     /* identical to box height, or 140% */
-    position: relative;
-    right: 410px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
     color: #FFFFFF;
     text-align: start;
-    margin: 8px 0 0;
+    padding-left: 100px;
+    margin: 0;
 }

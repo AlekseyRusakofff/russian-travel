@@ -1,5 +1,5 @@
 .place__paragraphs {
-    max-width: 484px;
+    max-width: 100%;
     align-self: start;
 
 
@@ -13,24 +13,7 @@
     margin: 0 0 26px 0;
 }
 
-@media screen and (max-width: 1024px) {
-    .place__paragraphs {
-        max-width: 456px;
-    }
-}
 
-@media screen and (max-width: 768px) {
-    .place__paragraphs {
-        max-width: 352px;
-        font-size: 16px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__paragraphs {
-        max-width: 288px;
-    }
-}
 
 .place__paragraph:nth-child(even) {
     margin: 0;

@@ -1,6 +1,6 @@
 .intro__text {
 
-    max-width: 690px;
+    max-width: 100%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -9,19 +9,7 @@
     line-height: 163%;
     /* or 26px */
     color: #FFFFFF;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .intro__text {
-        max-width: 720px;
-
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro__text {
-        max-width: 288px;
-
-    }
-}

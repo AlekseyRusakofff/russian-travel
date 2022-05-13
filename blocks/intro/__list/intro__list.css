@@ -3,21 +3,7 @@
     font-family: 'Inter';
     font-style: normal;
     list-style: none;
-    margin: 33px auto 92px;
+    margin: 0;
     padding: 0;
     color: #FFFFFF;
-}
-
-@media screen and (max-width: 768px) {
-    .intro__list {
-        max-width: 720px;
-        margin: 33px auto 88px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .intro__list {
-        max-width: 288px;
-        margin: 34px auto 64px;
-    }
 }
