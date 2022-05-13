@@ -9,7 +9,7 @@
     /* or 104% */
     text-align: center;
     color: #FFFFFF;
-    margin: 0;
+    margin: auto;
 }
 
 @media screen and (max-width: 767px) {
