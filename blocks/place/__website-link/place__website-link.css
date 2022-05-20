@@ -8,6 +8,8 @@
     /* identical to box height, or 122% */
     text-decoration-line: underline;
     color: #FFFFFF;
-
-
+    transition: opacity .3s linear;
+}
+.place__website-link:hover {
+    opacity: 0.8;
 }
