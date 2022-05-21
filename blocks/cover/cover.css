@@ -8,7 +8,7 @@
     margin: 105px auto 0;
     padding: 0;
     width: 1184px;
-    height: 740px;
+    min-height: 740px;
     text-align: center;
     z-index: 0;
    
@@ -16,21 +16,20 @@
 
 @media screen and (max-width: 1279px) {
     .cover {
-        margin:145px 0 0 0;
+        margin: 92px 0 0 0;
         max-width: 100%;
-        margin-top: 185px;
-        max-height: 62.5vw;
+        min-height: 62.5vw;
     }
 }
 @media screen and (max-width: 1023px) {
     .cover {
-        margin:140px 0 0 0;
+        margin: 0;
         
     }
 }
 @media screen and (max-width: 767px) {
     .cover {
-        margin: 20px 0 0 0;
+        margin: 0;
 
     }
 }
