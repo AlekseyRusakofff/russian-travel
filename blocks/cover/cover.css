@@ -5,7 +5,7 @@
     box-sizing: border-box;
     background-size: cover;
     background-image: url(../../images/cover-trains.jpg);
-    margin: 77px 48px 0 48px;
+    margin: 0 auto ;
     padding: 0;
     max-width: 1184px;
     min-height: 740px;
@@ -16,14 +16,14 @@
 
 @media screen and (max-width: 1279px) {
     .cover {
-        margin: 15px 0 0 15px;
+        margin: 0 auto;
         max-width: 100%;
         min-height: 62.5vw;
     }
 }
 @media screen and (max-width: 767px) {
     .cover {
-        margin: 14px 0 0 0;
+        margin: 20px 0 0;
 
     }
 }

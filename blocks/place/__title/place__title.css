@@ -9,7 +9,6 @@
     align-self: end;
     color: #FFFFFF;
     margin: 0;
-    padding-left: 12px;
 }
 @media screen and (max-width: 1279px) {
     .place__title {

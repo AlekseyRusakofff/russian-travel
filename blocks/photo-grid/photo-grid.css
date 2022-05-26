@@ -3,22 +3,22 @@
     grid-template-columns: repeat(auto-fit,minmax(284px,1fr));
     justify-content: center;
     gap: 16px;
-    margin: 0 auto;
+    margin: 0 auto 92px;
     max-width: 1184px;
-    padding: 0 0 92px 23px;
 }
 
 @media screen and (max-width: 1279px) {
     .photo-grid {
-        margin: 35px 23px 0px 23px;
+        margin: 35px auto 92px;
         gap: 14px;
+        padding: 0 48px;
     }
 }
 
 @media screen and (max-width: 1023px) {
     .photo-grid {
         gap:16px;
-        margin: 90px 0 0 0;
+        margin: 90px auto 0;
         padding-bottom: 41px;
     }
 }
@@ -27,7 +27,7 @@
     .photo-grid {
         grid-template-columns: repeat(auto-fit,minmax(216px,1fr));
         gap: 12px 16px;
-        padding: 0;
-        margin: 38px 15px 0 14px;
+        padding: 0 16px;
+        margin:64px auto 0;
     }
 }

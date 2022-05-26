@@ -2,19 +2,20 @@
     display: grid;
     grid-template-columns: repeat(2, minmax(216px, 1fr));
     
-    row-gap: 49px;
-    column-gap: 40px;
-    margin: 0 auto 68px;
+    row-gap: 48px;
+    column-gap: 15px;
+    margin: 0 auto 81px;
 }
 
 @media screen and (max-width: 1279px) {
     .place {        
-        row-gap: 45px;
-        column-gap: 32px;
-        margin: 0 auto 65px;
-    
+        row-gap: 48px;
+        column-gap: 15px;
+        margin: 0 auto 65px;}
+        .place:last-of-type {
+            margin:16px 0 0 0;
+        }
     }
-}
 
 @media screen and (max-width: 1023px) {
     .place {
@@ -34,7 +35,14 @@
         
        
     }
-}
-.place:last-of-type {
-    margin-bottom: 0;
+   
+    .place:nth-child(2){
+        margin: 0 0 25px 0;
+    }
+    .place:nth-child(3){
+        margin: 0 0 10px 0;
+    }
+    .place:nth-child(4){
+        margin: 17px 0 40px 0px;
+            }
 }
