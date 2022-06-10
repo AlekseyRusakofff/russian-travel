@@ -1,25 +1,4 @@
 .photo-grid__item {
-    max-width: 100%;
-    gap: 16px 16px;
-}
-
-@media screen and (max-width: 1279px) {
-    .photo-grid__item {
-        
-        gap: 14px 14px;
-    }
-}
-
-@media screen and (max-width: 1023px) {
-    .photo-grid__item {
-       
-        gap: 16px 16px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .photo-grid__item {
-        
-        gap: 12px;
-    }
+    width: 100%;
+    
 }
