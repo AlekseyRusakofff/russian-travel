@@ -1,34 +1,35 @@
-.cover {
+.cover__content {
     position: relative;
     background-repeat: no-repeat;
     background-position: center;
     box-sizing: border-box;
     background-size: cover;
-    background-image: url(../../images/cover-trains.jpg);
+    background-image: url(../../../images/cover-trains.jpg);
     margin: 0 auto;
     padding: 0;
     max-width: 1184px;
     min-height: 740px;
     text-align: center;
     z-index: 0;
-   
+
 }
 
 @media screen and (max-width: 1279px) {
-    .cover {
+    .cover__content {
         margin: 0 auto;
         max-width: 100%;
         min-height: 62.5vw;
     }
 }
+
 @media screen and (max-width: 767px) {
-    .cover {
+    .cover__content {
         margin: 20px 0 0;
 
     }
 }
 
-.cover::before {
+.cover__content::before {
 
     position: absolute;
     left: 0px;
@@ -42,6 +43,6 @@
     transition: 1s linear;
 }
 
-.cover:hover::before {
+.cover__content:hover::before {
     opacity: 0.8;
 }
